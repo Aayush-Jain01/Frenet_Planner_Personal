@@ -1,0 +1,6 @@
+devel_space: /home/aayush/catkin_ws/devel
+install: false
+install_space: /home/aayush/catkin_ws/install
+profile: default
+source_space: /home/aayush/catkin_ws/src
+workspace: /home/aayush/catkin_ws

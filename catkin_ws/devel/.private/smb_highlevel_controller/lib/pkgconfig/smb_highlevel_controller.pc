@@ -1,0 +1,8 @@
+prefix=/home/aayush/catkin_ws/devel/.private/smb_highlevel_controller
+
+Name: smb_highlevel_controller
+Description: Description of smb_highlevel_controller
+Version: 0.1.0
+Cflags: -I/home/aayush/catkin_ws/src/smb_highlevel_controller/include
+Libs: -L${prefix}/lib -lsmb_highlevel_controller
+Requires: rospy sensor_msgs

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/aayush/catkin_ws/devel/.private/ros_package_template/setup.sh

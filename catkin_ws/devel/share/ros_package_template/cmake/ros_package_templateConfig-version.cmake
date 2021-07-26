@@ -1,0 +1,1 @@
+/home/aayush/catkin_ws/devel/.private/ros_package_template/share/ros_package_template/cmake/ros_package_templateConfig-version.cmake

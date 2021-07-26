@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/aayush/Workspaces/smb_ws/devel/.private/teleop_twist_keyboard/setup.sh
