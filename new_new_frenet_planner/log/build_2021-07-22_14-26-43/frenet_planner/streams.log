@@ -1,0 +1,5 @@
+[0.889s] Invoking command in '/home/aayush/new_new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/new_new_frenet_planner/install/dummy:/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_new_frenet_planner/build/frenet_planner -- -j2 -l2
+[0.948s] CMake Error: The source directory "/home/aayush/new_new_frenet_planner/src/IAC_planner_4" does not exist.
+[0.949s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.952s] make: *** [Makefile:326: cmake_check_build_system] Error 1
+[0.960s] Invoked command in '/home/aayush/new_new_frenet_planner/build/frenet_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/new_new_frenet_planner/install/dummy:/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_new_frenet_planner/build/frenet_planner -- -j2 -l2

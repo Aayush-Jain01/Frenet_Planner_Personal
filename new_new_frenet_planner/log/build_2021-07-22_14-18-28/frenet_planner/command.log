@@ -1,0 +1,6 @@
+Invoking command in '/home/aayush/new_new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/aayush/new_new_frenet_planner/src/IAC_planner_4 -DCMAKE_INSTALL_PREFIX=/home/aayush/new_new_frenet_planner/install/frenet_planner
+Invoked command in '/home/aayush/new_new_frenet_planner/build/frenet_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/aayush/new_new_frenet_planner/src/IAC_planner_4 -DCMAKE_INSTALL_PREFIX=/home/aayush/new_new_frenet_planner/install/frenet_planner
+Invoking command in '/home/aayush/new_new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_new_frenet_planner/build/frenet_planner -- -j2 -l2
+Invoked command in '/home/aayush/new_new_frenet_planner/build/frenet_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_new_frenet_planner/build/frenet_planner -- -j2 -l2
+Invoking command in '/home/aayush/new_new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/aayush/new_new_frenet_planner/build/frenet_planner
+Invoked command in '/home/aayush/new_new_frenet_planner/build/frenet_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/aayush/new_new_frenet_planner/build/frenet_planner

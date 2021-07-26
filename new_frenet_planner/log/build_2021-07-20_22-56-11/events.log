@@ -1,0 +1,355 @@
+[0.000000] (-) TimerEvent: {}
+[0.000721] (dummy) JobQueued: {'identifier': 'dummy', 'dependencies': OrderedDict()}
+[0.000825] (frenet_planner) JobQueued: {'identifier': 'frenet_planner', 'dependencies': OrderedDict()}
+[0.000908] (dummy) JobStarted: {'identifier': 'dummy'}
+[0.086066] (frenet_planner) JobStarted: {'identifier': 'frenet_planner'}
+[0.117156] (-) TimerEvent: {}
+[0.218287] (-) TimerEvent: {}
+[0.319913] (-) TimerEvent: {}
+[0.420439] (-) TimerEvent: {}
+[0.521039] (-) TimerEvent: {}
+[0.621610] (-) TimerEvent: {}
+[0.722175] (-) TimerEvent: {}
+[0.822734] (-) TimerEvent: {}
+[0.928698] (-) TimerEvent: {}
+[0.980566] (frenet_planner) JobProgress: {'identifier': 'frenet_planner', 'progress': 'cmake'}
+[0.982890] (frenet_planner) JobProgress: {'identifier': 'frenet_planner', 'progress': 'build'}
+[0.985684] (frenet_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aayush/new_frenet_planner/build/frenet_planner', '--', '-j2', '-l2'], 'cwd': '/home/aayush/new_frenet_planner/build/frenet_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'aayush'), ('SSH_AGENT_PID', '1616'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/aayush'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1429'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/aayush/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/aayush/new_frenet_planner/install:/home/aayush/fake_iac_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'aayush'), ('JOURNAL_STREAM', '9:35003'), ('_', '/home/aayush/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'aayush'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/aayush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/aayush:@/tmp/.ICE-unix/1676,unix/aayush:/tmp/.ICE-unix/1676'), ('INVOCATION_ID', '9a66e051dfea420f9c4b0f8fe8da164c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61f3c578_551f_446a_9fca_863c3123f765'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.2890'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/aayush/new_frenet_planner/install/frenet_planner:/home/aayush/fake_iac_ws/install/frenet_planner:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/aayush/new_frenet_planner/build/frenet_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/aayush/fake_iac_ws/install/dummy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/aayush/new_frenet_planner/install/frenet_planner:/home/aayush/fake_iac_ws/install/frenet_planner:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy')]), 'shell': False}
+[1.011802] (dummy) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/dummy', 'build', '--build-base', '/home/aayush/new_frenet_planner/build/dummy/build', 'install', '--prefix', '/home/aayush/new_frenet_planner/install/dummy', '--record', '/home/aayush/new_frenet_planner/build/dummy/install.log', '--single-version-externally-managed'], 'cwd': '/home/aayush/new_frenet_planner/src/dummy', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'aayush', 'SSH_AGENT_PID': '1616', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/aayush', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1429', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/aayush/ros2_install', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/aayush/new_frenet_planner/install:/home/aayush/fake_iac_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'aayush', 'JOURNAL_STREAM': '9:35003', '_': '/home/aayush/.local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'aayush', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/aayush/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aayush:@/tmp/.ICE-unix/1676,unix/aayush:/tmp/.ICE-unix/1676', 'INVOCATION_ID': '9a66e051dfea420f9c4b0f8fe8da164c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/61f3c578_551f_446a_9fca_863c3123f765', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.2890', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/aayush/new_frenet_planner/install/frenet_planner:/home/aayush/fake_iac_ws/install/frenet_planner:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aayush/new_frenet_planner/build/dummy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aayush/new_frenet_planner/install/dummy/lib/python3.8/site-packages:/home/aayush/fake_iac_ws/install/dummy/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/aayush/new_frenet_planner/install/frenet_planner:/home/aayush/fake_iac_ws/install/frenet_planner'}, 'shell': False}
+[1.029242] (-) TimerEvent: {}
+[1.130271] (-) TimerEvent: {}
+[1.177909] (frenet_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target temp_frenet_ros_obst\x1b[0m\n'}
+[1.230387] (-) TimerEvent: {}
+[1.331861] (-) TimerEvent: {}
+[1.432920] (-) TimerEvent: {}
+[1.441456] (frenet_planner) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/temp_frenet_ros_obst.dir/src/frenet_optimal_trajectory.cpp.o\x1b[0m\n'}
+[1.533456] (-) TimerEvent: {}
+[1.634043] (-) TimerEvent: {}
+[1.734654] (-) TimerEvent: {}
+[1.835186] (-) TimerEvent: {}
+[1.935738] (-) TimerEvent: {}
+[1.992904] (dummy) StdoutLine: {'line': b'running egg_info\n'}
+[1.994906] (dummy) StdoutLine: {'line': b'writing ../../build/dummy/dummy.egg-info/PKG-INFO\n'}
+[1.995612] (dummy) StdoutLine: {'line': b'writing dependency_links to ../../build/dummy/dummy.egg-info/dependency_links.txt\n'}
+[1.996113] (dummy) StdoutLine: {'line': b'writing entry points to ../../build/dummy/dummy.egg-info/entry_points.txt\n'}
+[1.997403] (dummy) StdoutLine: {'line': b'writing requirements to ../../build/dummy/dummy.egg-info/requires.txt\n'}
+[1.997869] (dummy) StdoutLine: {'line': b'writing top-level names to ../../build/dummy/dummy.egg-info/top_level.txt\n'}
+[2.036279] (-) TimerEvent: {}
+[2.136790] (-) TimerEvent: {}
+[2.169589] (dummy) StdoutLine: {'line': b"reading manifest file '../../build/dummy/dummy.egg-info/SOURCES.txt'\n"}
+[2.176490] (dummy) StdoutLine: {'line': b"writing manifest file '../../build/dummy/dummy.egg-info/SOURCES.txt'\n"}
+[2.177112] (dummy) StdoutLine: {'line': b'running build\n'}
+[2.177382] (dummy) StdoutLine: {'line': b'running build_py\n'}
+[2.177828] (dummy) StdoutLine: {'line': b'running install\n'}
+[2.180330] (dummy) StdoutLine: {'line': b'running install_lib\n'}
+[2.187871] (dummy) StdoutLine: {'line': b'running install_data\n'}
+[2.189516] (dummy) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.202036] (dummy) StdoutLine: {'line': b"removing '/home/aayush/new_frenet_planner/install/dummy/lib/python3.8/site-packages/dummy-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.202955] (dummy) StdoutLine: {'line': b'Copying ../../build/dummy/dummy.egg-info to /home/aayush/new_frenet_planner/install/dummy/lib/python3.8/site-packages/dummy-0.0.0-py3.8.egg-info\n'}
+[2.205305] (dummy) StdoutLine: {'line': b'running install_scripts\n'}
+[2.237434] (-) TimerEvent: {}
+[2.338517] (-) TimerEvent: {}
+[2.383411] (dummy) StdoutLine: {'line': b'Installing dum_pub script to /home/aayush/new_frenet_planner/install/dummy/lib/dummy\n'}
+[2.384434] (dummy) StdoutLine: {'line': b"writing list of installed files to '/home/aayush/new_frenet_planner/build/dummy/install.log'\n"}
+[2.439097] (-) TimerEvent: {}
+[2.475402] (dummy) CommandEnded: {'returncode': 0}
+[2.547576] (-) TimerEvent: {}
+[2.648654] (-) TimerEvent: {}
+[2.657018] (dummy) JobEnded: {'identifier': 'dummy', 'rc': 0}
+[2.749549] (-) TimerEvent: {}
+[2.852736] (-) TimerEvent: {}
+[2.954089] (-) TimerEvent: {}
+[3.054633] (-) TimerEvent: {}
+[3.155688] (-) TimerEvent: {}
+[3.256722] (-) TimerEvent: {}
+[3.357786] (-) TimerEvent: {}
+[3.459314] (-) TimerEvent: {}
+[3.560378] (-) TimerEvent: {}
+[3.660949] (-) TimerEvent: {}
+[3.761533] (-) TimerEvent: {}
+[3.862574] (-) TimerEvent: {}
+[3.964101] (-) TimerEvent: {}
+[4.065123] (-) TimerEvent: {}
+[4.165711] (-) TimerEvent: {}
+[4.266303] (-) TimerEvent: {}
+[4.367363] (-) TimerEvent: {}
+[4.468357] (-) TimerEvent: {}
+[4.569912] (-) TimerEvent: {}
+[4.670435] (-) TimerEvent: {}
+[4.773535] (-) TimerEvent: {}
+[4.876541] (-) TimerEvent: {}
+[4.977996] (-) TimerEvent: {}
+[5.078581] (-) TimerEvent: {}
+[5.179258] (-) TimerEvent: {}
+[5.279708] (-) TimerEvent: {}
+[5.380274] (-) TimerEvent: {}
+[5.480829] (-) TimerEvent: {}
+[5.581454] (-) TimerEvent: {}
+[5.681962] (-) TimerEvent: {}
+[5.782533] (-) TimerEvent: {}
+[5.883566] (-) TimerEvent: {}
+[5.984609] (-) TimerEvent: {}
+[6.085195] (-) TimerEvent: {}
+[6.185760] (-) TimerEvent: {}
+[6.287097] (-) TimerEvent: {}
+[6.387777] (-) TimerEvent: {}
+[6.488864] (-) TimerEvent: {}
+[6.589932] (-) TimerEvent: {}
+[6.691146] (-) TimerEvent: {}
+[6.792506] (-) TimerEvent: {}
+[6.894107] (-) TimerEvent: {}
+[6.994661] (-) TimerEvent: {}
+[7.095786] (-) TimerEvent: {}
+[7.196618] (-) TimerEvent: {}
+[7.297788] (-) TimerEvent: {}
+[7.398358] (-) TimerEvent: {}
+[7.498917] (-) TimerEvent: {}
+[7.600429] (-) TimerEvent: {}
+[7.701510] (-) TimerEvent: {}
+[7.802511] (-) TimerEvent: {}
+[7.903075] (-) TimerEvent: {}
+[8.003772] (-) TimerEvent: {}
+[8.105180] (-) TimerEvent: {}
+[8.205785] (-) TimerEvent: {}
+[8.306334] (-) TimerEvent: {}
+[8.407380] (-) TimerEvent: {}
+[8.508433] (-) TimerEvent: {}
+[8.609005] (-) TimerEvent: {}
+[8.709529] (-) TimerEvent: {}
+[8.810624] (-) TimerEvent: {}
+[8.912134] (-) TimerEvent: {}
+[9.013219] (-) TimerEvent: {}
+[9.113773] (-) TimerEvent: {}
+[9.214820] (-) TimerEvent: {}
+[9.316367] (-) TimerEvent: {}
+[9.417675] (-) TimerEvent: {}
+[9.519448] (-) TimerEvent: {}
+[9.620956] (-) TimerEvent: {}
+[9.722016] (-) TimerEvent: {}
+[9.822577] (-) TimerEvent: {}
+[9.856727] (frenet_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:1\x1b[m\x1b[K:\n'}
+[9.857089] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& operator<<(std::ostream&, const FrenetPath&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.857310] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.857516] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.857753] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.857974] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.858247] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.858458] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.858705] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.860209] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.860462] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.860750] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.860981] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.861211] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.861434] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.861720] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.861945] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.862174] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.862401] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.862791] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.863257] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.863654] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.863948] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.864244] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.865224] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.865547] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.865831] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.866124] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.866478] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.866773] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.867055] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.867333] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.867637] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.867940] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.868217] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.868524] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.868799] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.869080] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.869380] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.869675] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.870044] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.870426] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.870677] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.870931] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.871176] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.871470] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.871715] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.871969] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.872219] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.872512] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.872759] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.873028] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.873323] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.873574] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.873832] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.874079] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.874415] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.874669] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.874915] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.875164] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.875467] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.875717] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.875960] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.876258] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.876506] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.876757] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.877004] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.877302] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.877550] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.877808] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.878055] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.878385] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.878649] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.878897] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.879191] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[9.879460] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[9.879710] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.879953] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.880249] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[9.880489] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.880731] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:159:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kfp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[9.880986] (frenet_planner) StderrLine: {'line': b'  159 | inline ostream& operator<<(ostream& os, \x1b[01;35m\x1b[Kconst FrenetPath& fp\x1b[m\x1b[K)\n'}
+[9.881280] (frenet_planner) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[9.923715] (-) TimerEvent: {}
+[10.024701] (-) TimerEvent: {}
+[10.125745] (-) TimerEvent: {}
+[10.226786] (-) TimerEvent: {}
+[10.327812] (-) TimerEvent: {}
+[10.428899] (-) TimerEvent: {}
+[10.529459] (-) TimerEvent: {}
+[10.630993] (-) TimerEvent: {}
+[10.731776] (-) TimerEvent: {}
+[10.833052] (-) TimerEvent: {}
+[10.933649] (-) TimerEvent: {}
+[10.943642] (frenet_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:6\x1b[m\x1b[K:\n'}
+[10.943940] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/./include/matplotlibcpp.hpp:\x1b[m\x1b[K At global scope:\n'}
+[10.944130] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/./include/matplotlibcpp.hpp:314:36:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatic_assert without a message only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[10.944372] (frenet_planner) StderrLine: {'line': b'  314 | static_assert(sizeof(long long) == \x1b[01;35m\x1b[K8\x1b[m\x1b[K);\n'}
+[10.944570] (frenet_planner) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.944943] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/./include/matplotlibcpp.hpp:316:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatic_assert without a message only available with \xe2\x80\x98\x1b[01m\x1b[K-std=c++17\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K-std=gnu++17\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[10.945156] (frenet_planner) StderrLine: {'line': b'  316 | static_assert(sizeof(unsigned long long) == \x1b[01;35m\x1b[K8\x1b[m\x1b[K);\n'}
+[10.945395] (frenet_planner) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[11.034231] (-) TimerEvent: {}
+[11.129150] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FrenetPath::calc_lon_paths_quintic_poly(double, double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.129476] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:62:91:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kts\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.129724] (frenet_planner) StderrLine: {'line': b'   62 | s_quintic_poly(double c_speed, double s0, double Ti, \x1b[01;35m\x1b[Kdouble ts\x1b[m\x1b[K,\n'}
+[11.130006] (frenet_planner) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~^~\x1b[m\x1b[K\n'}
+[11.130212] (frenet_planner) StderrLine: {'line': b'\n'}
+[11.134721] (-) TimerEvent: {}
+[11.148584] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<FrenetPath> calc_frenet_paths(double, double, double, double, double, FrenetPath)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.148875] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:140:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.149082] (frenet_planner) StderrLine: {'line': b'  140 |           double s0, \x1b[01;35m\x1b[KFrenetPath lp\x1b[m\x1b[K)\n'}
+[11.149268] (frenet_planner) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[11.152135] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FrenetPath::adding_global_path(Spline2D)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.152408] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:215:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KstartTime1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.152619] (frenet_planner) StderrLine: {'line': b'  215 |  double \x1b[01;35m\x1b[KstartTime1\x1b[m\x1b[K = omp_get_wtime();\n'}
+[11.152812] (frenet_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.152994] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:275:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KendTime1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.153176] (frenet_planner) StderrLine: {'line': b'  275 |  double \x1b[01;35m\x1b[KendTime1\x1b[m\x1b[K = omp_get_wtime();\n'}
+[11.153404] (frenet_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.177752] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<FrenetPath> check_path(std::vector<FrenetPath>&, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.178264] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:421:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFrenet\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.178526] (frenet_planner) StderrLine: {'line': b'  421 |   FrenetPath fp = fplist[i]; \x1b[01;31m\x1b[KFrenet\x1b[m\x1b[K Path\n'}
+[11.178823] (frenet_planner) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[11.185372] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:431:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.185952] (frenet_planner) StderrLine: {'line': b'  431 |    \x1b[01;31m\x1b[Kflag\x1b[m\x1b[K = 1;\n'}
+[11.186263] (frenet_planner) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.191622] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:433:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kflag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[11.191918] (frenet_planner) StderrLine: {'line': b'  433 |   if (\x1b[01;31m\x1b[Kflag\x1b[m\x1b[K == 1)\n'}
+[11.192156] (frenet_planner) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.203280] (frenet_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:1\x1b[m\x1b[K:\n'}
+[11.203582] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KFrenetPath& frenet_optimal_planning(Spline2D, double, double, double, double, double, FrenetPath, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.203805] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[11.204058] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[11.204269] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.204466] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.204673] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[11.204868] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.205650] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[11.205879] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[11.206115] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.206315] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.206583] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[11.206785] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.208174] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[11.208396] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[11.208602] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.208798] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.209046] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[11.209240] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.210236] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[11.210477] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[11.210675] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.210902] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.211103] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[11.211295] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.215703] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kstatement has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[11.215999] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;35m\x1b[K42\x1b[m\x1b[K\n'}
+[11.216217] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.216420] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[Ktrace\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.216623] (frenet_planner) StderrLine: {'line': b'  158 | #define trace(...) \x1b[01;36m\x1b[K42\x1b[m\x1b[K\n'}
+[11.216856] (frenet_planner) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.217770] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:488:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KstartTime1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.218131] (frenet_planner) StderrLine: {'line': b'  488 |  double \x1b[01;35m\x1b[KstartTime1\x1b[m\x1b[K = omp_get_wtime();\n'}
+[11.218394] (frenet_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.218597] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:491:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KendTime1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.218846] (frenet_planner) StderrLine: {'line': b'  491 |  double \x1b[01;35m\x1b[KendTime1\x1b[m\x1b[K = omp_get_wtime();\n'}
+[11.219042] (frenet_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.219251] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:494:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KstartTime2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.219450] (frenet_planner) StderrLine: {'line': b'  494 |  double \x1b[01;35m\x1b[KstartTime2\x1b[m\x1b[K = omp_get_wtime();\n'}
+[11.219697] (frenet_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.219892] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:497:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KendTime2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.220096] (frenet_planner) StderrLine: {'line': b'  497 |  double \x1b[01;35m\x1b[KendTime2\x1b[m\x1b[K = omp_get_wtime();\n'}
+[11.220290] (frenet_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.220482] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:501:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KstartTime3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.220718] (frenet_planner) StderrLine: {'line': b'  501 |  double \x1b[01;35m\x1b[KstartTime3\x1b[m\x1b[K = omp_get_wtime();\n'}
+[11.220913] (frenet_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.221111] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:510:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KendTime3\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[11.221308] (frenet_planner) StderrLine: {'line': b'  510 |  double \x1b[01;35m\x1b[KendTime3\x1b[m\x1b[K = omp_get_wtime();\n'}
+[11.221500] (frenet_planner) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.221724] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:485:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbot_yaw\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[11.221922] (frenet_planner) StderrLine: {'line': b'  485 |            double c_d_d, double c_d_dd, FrenetPath lp, \x1b[01;35m\x1b[Kdouble bot_yaw\x1b[m\x1b[K)\n'}
+[11.222172] (frenet_planner) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[11.235887] (-) TimerEvent: {}
+[11.336869] (-) TimerEvent: {}
+[11.437441] (-) TimerEvent: {}
+[11.538023] (-) TimerEvent: {}
+[11.638554] (-) TimerEvent: {}
+[11.739626] (-) TimerEvent: {}
+[11.840656] (-) TimerEvent: {}
+[11.941708] (-) TimerEvent: {}
+[12.042791] (-) TimerEvent: {}
+[12.143798] (-) TimerEvent: {}
+[12.244843] (-) TimerEvent: {}
+[12.345902] (-) TimerEvent: {}
+[12.446968] (-) TimerEvent: {}
+[12.547534] (-) TimerEvent: {}
+[12.626966] (frenet_planner) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:1\x1b[m\x1b[K:\n'}
+[12.627370] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:\x1b[m\x1b[K At global scope:\n'}
+[12.627749] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:45:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ks_dest\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.628050] (frenet_planner) StderrLine: {'line': b'   45 | static double \x1b[01;35m\x1b[Ks_dest\x1b[m\x1b[K;\n'}
+[12.628320] (frenet_planner) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[12.628705] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:32:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMIN_LAT_VEL\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.628996] (frenet_planner) StderrLine: {'line': b'   32 | static double \x1b[01;35m\x1b[KMIN_LAT_VEL\x1b[m\x1b[K = -1.0;  // minimum lateral speed. Sampling for d_dot\n'}
+[12.629260] (frenet_planner) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.629632] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:31:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KROBOT_RADIUS\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.629903] (frenet_planner) StderrLine: {'line': b'   31 | static double \x1b[01;35m\x1b[KROBOT_RADIUS\x1b[m\x1b[K = 2.0;  // robot radius [m]\n'}
+[12.630172] (frenet_planner) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.630551] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:22:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMAX_CURVATURE\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.630886] (frenet_planner) StderrLine: {'line': b'   22 | static double \x1b[01;35m\x1b[KMAX_CURVATURE\x1b[m\x1b[K = 2.0;  // maximum curvature [1/m]\n'}
+[12.631148] (frenet_planner) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.631480] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:21:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMAX_ACCEL\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.631747] (frenet_planner) StderrLine: {'line': b'   21 | static double \x1b[01;35m\x1b[KMAX_ACCEL\x1b[m\x1b[K = 5.0;  // maximum acceleration [m/ss]\n'}
+[12.632012] (frenet_planner) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.632317] (frenet_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:20:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMAX_SPEED\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.632623] (frenet_planner) StderrLine: {'line': b'   20 | static double \x1b[01;35m\x1b[KMAX_SPEED\x1b[m\x1b[K = 13.89;  // maximum speed [m/s]\n'}
+[12.632894] (frenet_planner) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.649526] (-) TimerEvent: {}
+[12.689151] (frenet_planner) StderrLine: {'line': b'make[2]: *** [CMakeFiles/temp_frenet_ros_obst.dir/build.make:76: CMakeFiles/temp_frenet_ros_obst.dir/src/frenet_optimal_trajectory.cpp.o] Error 1\n'}
+[12.691878] (frenet_planner) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/temp_frenet_ros_obst.dir/all] Error 2\n'}
+[12.692294] (frenet_planner) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[12.695826] (frenet_planner) CommandEnded: {'returncode': 2}
+[12.750232] (-) TimerEvent: {}
+[12.847706] (frenet_planner) JobEnded: {'identifier': 'frenet_planner', 'rc': 2}
+[12.856998] (-) TimerEvent: {}
+[12.857199] (-) EventReactorShutdown: {}

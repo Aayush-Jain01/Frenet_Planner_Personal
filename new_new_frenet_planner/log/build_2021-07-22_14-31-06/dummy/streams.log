@@ -1,0 +1,21 @@
+[1.076s] Invoking command in '/home/aayush/new_new_frenet_planner/src/dummy': PYTHONPATH=/home/aayush/new_new_frenet_planner/install/dummy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dummy build --build-base /home/aayush/new_new_frenet_planner/build/dummy/build install --prefix /home/aayush/new_new_frenet_planner/install/dummy --record /home/aayush/new_new_frenet_planner/build/dummy/install.log --single-version-externally-managed
+[1.910s] running egg_info
+[1.912s] writing ../../build/dummy/dummy.egg-info/PKG-INFO
+[1.913s] writing dependency_links to ../../build/dummy/dummy.egg-info/dependency_links.txt
+[1.913s] writing entry points to ../../build/dummy/dummy.egg-info/entry_points.txt
+[1.915s] writing requirements to ../../build/dummy/dummy.egg-info/requires.txt
+[1.915s] writing top-level names to ../../build/dummy/dummy.egg-info/top_level.txt
+[2.049s] reading manifest file '../../build/dummy/dummy.egg-info/SOURCES.txt'
+[2.051s] writing manifest file '../../build/dummy/dummy.egg-info/SOURCES.txt'
+[2.052s] running build
+[2.052s] running build_py
+[2.053s] running install
+[2.056s] running install_lib
+[2.062s] running install_data
+[2.063s] running install_egg_info
+[2.072s] removing '/home/aayush/new_new_frenet_planner/install/dummy/lib/python3.8/site-packages/dummy-0.0.0-py3.8.egg-info' (and everything under it)
+[2.073s] Copying ../../build/dummy/dummy.egg-info to /home/aayush/new_new_frenet_planner/install/dummy/lib/python3.8/site-packages/dummy-0.0.0-py3.8.egg-info
+[2.075s] running install_scripts
+[2.200s] Installing dum_pub script to /home/aayush/new_new_frenet_planner/install/dummy/lib/dummy
+[2.201s] writing list of installed files to '/home/aayush/new_new_frenet_planner/build/dummy/install.log'
+[2.263s] Invoked command in '/home/aayush/new_new_frenet_planner/src/dummy' returned '0': PYTHONPATH=/home/aayush/new_new_frenet_planner/install/dummy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dummy build --build-base /home/aayush/new_new_frenet_planner/build/dummy/build install --prefix /home/aayush/new_new_frenet_planner/install/dummy --record /home/aayush/new_new_frenet_planner/build/dummy/install.log --single-version-externally-managed

@@ -1,0 +1,210 @@
+[0.881s] Invoking command in '/home/aayush/new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_frenet_planner/build/frenet_planner -- -j2 -l2
+[1.058s] [35m[1mScanning dependencies of target temp_frenet_ros_obst[0m
+[1.359s] [ 20%] [32mBuilding CXX object CMakeFiles/temp_frenet_ros_obst.dir/src/frenet_optimal_trajectory.cpp.o[0m
+[9.460s] In file included from [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:1[m[K:
+[9.460s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:[m[K In function ‘[01m[Kstd::ostream& operator<<(std::ostream&, const FrenetPath&)[m[K’:
+[9.460s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.461s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.461s]       |                    [01;35m[K^~[m[K
+[9.461s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.461s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.461s]       |                    [01;36m[K^~[m[K
+[9.463s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.463s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.463s]       |                    [01;35m[K^~[m[K
+[9.463s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.464s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.464s]       |                    [01;36m[K^~[m[K
+[9.464s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.464s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.465s]       |                    [01;35m[K^~[m[K
+[9.465s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.465s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.465s]       |                    [01;36m[K^~[m[K
+[9.465s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.466s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.466s]       |                    [01;35m[K^~[m[K
+[9.466s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.466s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.466s]       |                    [01;36m[K^~[m[K
+[9.467s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.467s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.467s]       |                    [01;35m[K^~[m[K
+[9.467s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.467s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.468s]       |                    [01;36m[K^~[m[K
+[9.468s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.468s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.468s]       |                    [01;35m[K^~[m[K
+[9.468s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.469s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.469s]       |                    [01;36m[K^~[m[K
+[9.469s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.469s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.470s]       |                    [01;35m[K^~[m[K
+[9.470s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.470s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.470s]       |                    [01;36m[K^~[m[K
+[9.470s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.471s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.471s]       |                    [01;35m[K^~[m[K
+[9.471s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.471s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.471s]       |                    [01;36m[K^~[m[K
+[9.472s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.472s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.472s]       |                    [01;35m[K^~[m[K
+[9.472s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.472s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.473s]       |                    [01;36m[K^~[m[K
+[9.473s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.473s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.473s]       |                    [01;35m[K^~[m[K
+[9.473s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.474s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.474s]       |                    [01;36m[K^~[m[K
+[9.474s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.474s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.475s]       |                    [01;35m[K^~[m[K
+[9.475s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.475s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.475s]       |                    [01;36m[K^~[m[K
+[9.475s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.476s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.476s]       |                    [01;35m[K^~[m[K
+[9.476s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.476s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.476s]       |                    [01;36m[K^~[m[K
+[9.477s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[9.477s]   158 | #define trace(...) [01;35m[K42[m[K
+[9.477s]       |                    [01;35m[K^~[m[K
+[9.477s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[9.477s]   158 | #define trace(...) [01;36m[K42[m[K
+[9.478s]       |                    [01;36m[K^~[m[K
+[9.478s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:159:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[9.478s]   159 | inline ostream& operator<<(ostream& os, [01;35m[Kconst FrenetPath& fp[m[K)
+[9.478s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[10.519s] In file included from [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:6[m[K:
+[10.519s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/./include/matplotlibcpp.hpp:[m[K At global scope:
+[10.520s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/./include/matplotlibcpp.hpp:314:36:[m[K [01;35m[Kwarning: [m[Kstatic_assert without a message only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.520s]   314 | static_assert(sizeof(long long) == [01;35m[K8[m[K);
+[10.520s]       |                                    [01;35m[K^[m[K
+[10.521s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/./include/matplotlibcpp.hpp:316:45:[m[K [01;35m[Kwarning: [m[Kstatic_assert without a message only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.521s]   316 | static_assert(sizeof(unsigned long long) == [01;35m[K8[m[K);
+[10.521s]       |                                             [01;35m[K^[m[K
+[10.695s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:[m[K In member function ‘[01m[Kvoid FrenetPath::calc_lon_paths_quintic_poly(double, double, double, double, double)[m[K’:
+[10.696s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:62:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kts[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.696s]    62 | s_quintic_poly(double c_speed, double s0, double Ti, [01;35m[Kdouble ts[m[K,
+[10.696s]       |                                                      [01;35m[K~~~~~~~^~[m[K
+[10.696s] 
+[10.716s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:[m[K In function ‘[01m[Kstd::vector<FrenetPath> calc_frenet_paths(double, double, double, double, double, FrenetPath)[m[K’:
+[10.717s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:140:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klp[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.717s]   140 |           double s0, [01;35m[KFrenetPath lp[m[K)
+[10.717s]       |                      [01;35m[K~~~~~~~~~~~^~[m[K
+[10.719s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:[m[K In member function ‘[01m[Kvoid FrenetPath::adding_global_path(Spline2D)[m[K’:
+[10.719s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:215:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KstartTime1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.719s]   215 |  double [01;35m[KstartTime1[m[K = omp_get_wtime();
+[10.719s]       |         [01;35m[K^~~~~~~~~~[m[K
+[10.720s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:275:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KendTime1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.720s]   275 |  double [01;35m[KendTime1[m[K = omp_get_wtime();
+[10.720s]       |         [01;35m[K^~~~~~~~[m[K
+[10.747s] In file included from [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:1[m[K:
+[10.748s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:[m[K In function ‘[01m[KFrenetPath& frenet_optimal_planning(Spline2D, double, double, double, double, double, FrenetPath, double)[m[K’:
+[10.748s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[10.748s]   158 | #define trace(...) [01;35m[K42[m[K
+[10.748s]       |                    [01;35m[K^~[m[K
+[10.749s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[10.749s]   158 | #define trace(...) [01;36m[K42[m[K
+[10.749s]       |                    [01;36m[K^~[m[K
+[10.750s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[10.750s]   158 | #define trace(...) [01;35m[K42[m[K
+[10.750s]       |                    [01;35m[K^~[m[K
+[10.751s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[10.751s]   158 | #define trace(...) [01;36m[K42[m[K
+[10.751s]       |                    [01;36m[K^~[m[K
+[10.752s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[10.753s]   158 | #define trace(...) [01;35m[K42[m[K
+[10.753s]       |                    [01;35m[K^~[m[K
+[10.758s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[10.758s]   158 | #define trace(...) [01;36m[K42[m[K
+[10.758s]       |                    [01;36m[K^~[m[K
+[10.759s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[10.759s]   158 | #define trace(...) [01;35m[K42[m[K
+[10.759s]       |                    [01;35m[K^~[m[K
+[10.759s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[10.759s]   158 | #define trace(...) [01;36m[K42[m[K
+[10.760s]       |                    [01;36m[K^~[m[K
+[10.763s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K-Wunused-value[m[K]
+[10.763s]   158 | #define trace(...) [01;35m[K42[m[K
+[10.764s]       |                    [01;35m[K^~[m[K
+[10.764s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:158:20:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Ktrace[m[K’
+[10.764s]   158 | #define trace(...) [01;36m[K42[m[K
+[10.764s]       |                    [01;36m[K^~[m[K
+[10.767s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:488:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KstartTime1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.767s]   488 |  double [01;35m[KstartTime1[m[K = omp_get_wtime();
+[10.767s]       |         [01;35m[K^~~~~~~~~~[m[K
+[10.767s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:491:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KendTime1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.768s]   491 |  double [01;35m[KendTime1[m[K = omp_get_wtime();
+[10.768s]       |         [01;35m[K^~~~~~~~[m[K
+[10.768s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:494:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KstartTime2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.768s]   494 |  double [01;35m[KstartTime2[m[K = omp_get_wtime();
+[10.769s]       |         [01;35m[K^~~~~~~~~~[m[K
+[10.769s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:497:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KendTime2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.770s]   497 |  double [01;35m[KendTime2[m[K = omp_get_wtime();
+[10.770s]       |         [01;35m[K^~~~~~~~[m[K
+[10.770s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:501:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KstartTime3[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.771s]   501 |  double [01;35m[KstartTime3[m[K = omp_get_wtime();
+[10.771s]       |         [01;35m[K^~~~~~~~~~[m[K
+[10.771s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:510:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KendTime3[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[10.771s]   510 |  double [01;35m[KendTime3[m[K = omp_get_wtime();
+[10.772s]       |         [01;35m[K^~~~~~~~[m[K
+[10.772s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:485:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbot_yaw[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.773s]   485 |            double c_d_d, double c_d_dd, FrenetPath lp, [01;35m[Kdouble bot_yaw[m[K)
+[10.773s]       |                                                        [01;35m[K~~~~~~~^~~~~~~[m[K
+[12.382s] In file included from [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/frenet_optimal_trajectory.cpp:1[m[K:
+[12.382s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:[m[K At global scope:
+[12.383s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:45:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Ks_dest[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[12.383s]    45 | static double [01;35m[Ks_dest[m[K;
+[12.383s]       |               [01;35m[K^~~~~~[m[K
+[12.384s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:32:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KMIN_LAT_VEL[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[12.384s]    32 | static double [01;35m[KMIN_LAT_VEL[m[K = -1.0;  // minimum lateral speed. Sampling for d_dot
+[12.384s]       |               [01;35m[K^~~~~~~~~~~[m[K
+[12.385s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:31:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KROBOT_RADIUS[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[12.385s]    31 | static double [01;35m[KROBOT_RADIUS[m[K = 2.0;  // robot radius [m]
+[12.385s]       |               [01;35m[K^~~~~~~~~~~~[m[K
+[12.385s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:22:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KMAX_CURVATURE[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[12.385s]    22 | static double [01;35m[KMAX_CURVATURE[m[K = 2.0;  // maximum curvature [1/m]
+[12.386s]       |               [01;35m[K^~~~~~~~~~~~~[m[K
+[12.386s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:21:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KMAX_ACCEL[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[12.387s]    21 | static double [01;35m[KMAX_ACCEL[m[K = 5.0;  // maximum acceleration [m/ss]
+[12.387s]       |               [01;35m[K^~~~~~~~~[m[K
+[12.388s] [01m[K/home/aayush/new_frenet_planner/src/frenet_planner_3/src/../include/frenet_optimal_trajectory.hpp:20:15:[m[K [01;35m[Kwarning: [m[K‘[01m[KMAX_SPEED[m[K’ defined but not used [[01;35m[K-Wunused-variable[m[K]
+[12.388s]    20 | static double [01;35m[KMAX_SPEED[m[K = 13.89;  // maximum speed [m/s]
+[12.388s]       |               [01;35m[K^~~~~~~~~[m[K
+[14.118s] [ 40%] [32m[1mLinking CXX executable temp_frenet_ros_obst[0m
+[16.461s] [100%] Built target temp_frenet_ros_obst
+[16.493s] Invoked command in '/home/aayush/new_frenet_planner/build/frenet_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_frenet_planner/build/frenet_planner -- -j2 -l2
+[16.614s] Invoking command in '/home/aayush/new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy /usr/bin/cmake --install /home/aayush/new_frenet_planner/build/frenet_planner
+[16.646s] -- Install configuration: ""
+[16.646s] -- Installing: /home/aayush/new_frenet_planner/install/frenet_planner/lib/frenet_planner/temp_frenet_ros_obst
+[16.660s] -- Set runtime path of "/home/aayush/new_frenet_planner/install/frenet_planner/lib/frenet_planner/temp_frenet_ros_obst" to ""
+[16.661s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/launch
+[16.661s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/launch/frenet_planner_launch.py
+[16.661s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/launch/__pycache__
+[16.662s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/launch/__pycache__/frenet_planner_launch.cpython-38.pyc
+[16.663s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/ament_index/resource_index/package_run_dependencies/frenet_planner
+[16.663s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/ament_index/resource_index/parent_prefix_path/frenet_planner
+[16.664s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/environment/ament_prefix_path.sh
+[16.664s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/environment/ament_prefix_path.dsv
+[16.665s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/environment/path.sh
+[16.665s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/environment/path.dsv
+[16.666s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/local_setup.bash
+[16.666s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/local_setup.sh
+[16.667s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/local_setup.zsh
+[16.667s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/local_setup.dsv
+[16.667s] -- Installing: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.dsv
+[16.668s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/ament_index/resource_index/packages/frenet_planner
+[16.669s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/cmake/frenet_plannerConfig.cmake
+[16.669s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/cmake/frenet_plannerConfig-version.cmake
+[16.670s] -- Up-to-date: /home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.xml
+[16.693s] Invoked command in '/home/aayush/new_frenet_planner/build/frenet_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy /usr/bin/cmake --install /home/aayush/new_frenet_planner/build/frenet_planner

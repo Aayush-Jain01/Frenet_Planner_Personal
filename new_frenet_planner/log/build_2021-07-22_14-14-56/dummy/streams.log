@@ -1,0 +1,20 @@
+[0.946s] Invoking command in '/home/aayush/new_frenet_planner/src/dummy': PYTHONPATH=/home/aayush/new_frenet_planner/install/dummy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dummy build --build-base /home/aayush/new_frenet_planner/build/dummy/build install --prefix /home/aayush/new_frenet_planner/install/dummy --record /home/aayush/new_frenet_planner/build/dummy/install.log --single-version-externally-managed
+[1.741s] running egg_info
+[1.742s] writing ../../build/dummy/dummy.egg-info/PKG-INFO
+[1.743s] writing dependency_links to ../../build/dummy/dummy.egg-info/dependency_links.txt
+[1.744s] writing entry points to ../../build/dummy/dummy.egg-info/entry_points.txt
+[1.745s] writing requirements to ../../build/dummy/dummy.egg-info/requires.txt
+[1.745s] writing top-level names to ../../build/dummy/dummy.egg-info/top_level.txt
+[1.866s] reading manifest file '../../build/dummy/dummy.egg-info/SOURCES.txt'
+[1.869s] writing manifest file '../../build/dummy/dummy.egg-info/SOURCES.txt'
+[1.870s] running build
+[1.870s] running build_py
+[1.871s] running install
+[1.873s] running install_lib
+[1.879s] running install_data
+[1.880s] running install_egg_info
+[1.889s] removing '/home/aayush/new_frenet_planner/install/dummy/lib/python3.8/site-packages/dummy-0.0.0-py3.8.egg-info' (and everything under it)
+[1.891s] Copying ../../build/dummy/dummy.egg-info to /home/aayush/new_frenet_planner/install/dummy/lib/python3.8/site-packages/dummy-0.0.0-py3.8.egg-info
+[1.895s] running install_scripts
+[2.020s] Installing dum_pub script to /home/aayush/new_frenet_planner/install/dummy/lib/dummy
+[2.021s] writing list of installed files to '/home/aayush/new_frenet_planner/build/dummy/install.log'

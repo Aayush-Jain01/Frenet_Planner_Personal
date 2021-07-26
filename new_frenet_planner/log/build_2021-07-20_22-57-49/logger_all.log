@@ -1,0 +1,186 @@
+[1.427s] DEBUG:colcon:Command line arguments: ['/home/aayush/.local/bin/colcon', 'build']
+[1.427s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2542660cd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2542660cd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f254266e280>)
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.469s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aayush/new_frenet_planner'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.502s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.503s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.504s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy) by extensions ['ignore', 'ignore_ament_install']
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy) by extension 'ignore'
+[1.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy) by extension 'ignore_ament_install'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy) by extensions ['colcon_pkg']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy) by extension 'colcon_pkg'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy) by extensions ['colcon_meta']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy) by extension 'colcon_meta'
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy) by extensions ['ros']
+[1.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/dummy) by extension 'ros'
+[1.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dummy' with type 'ros.ament_python' and name 'dummy'
+[1.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_planner_3) by extensions ['ignore', 'ignore_ament_install']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_planner_3) by extension 'ignore'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_planner_3) by extension 'ignore_ament_install'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_planner_3) by extensions ['colcon_pkg']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_planner_3) by extension 'colcon_pkg'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_planner_3) by extensions ['colcon_meta']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_planner_3) by extension 'colcon_meta'
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_planner_3) by extensions ['ros']
+[1.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/frenet_planner_3) by extension 'ros'
+[1.516s] DEBUG:colcon.colcon_core.package_identification:Package 'src/frenet_planner_3' with type 'ros.ament_cmake' and name 'frenet_planner'
+[1.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'dummy' build argument 'cmake_args' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'dummy' build argument 'cmake_target' from command line to 'None'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'dummy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.647s] Level 5:colcon.colcon_core.verb:set package 'dummy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'dummy' build argument 'cmake_clean_first' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'dummy' build argument 'cmake_force_configure' from command line to 'False'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'dummy' build argument 'ament_cmake_args' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'dummy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.648s] Level 5:colcon.colcon_core.verb:set package 'dummy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.648s] DEBUG:colcon.colcon_core.verb:Building package 'dummy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aayush/new_frenet_planner/build/dummy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aayush/new_frenet_planner/install/dummy', 'merge_install': False, 'path': '/home/aayush/new_frenet_planner/src/dummy', 'symlink_install': False, 'test_result_base': None}
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'frenet_planner' build argument 'cmake_args' from command line to 'None'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'frenet_planner' build argument 'cmake_target' from command line to 'None'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'frenet_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'frenet_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'frenet_planner' build argument 'cmake_clean_first' from command line to 'False'
+[1.672s] Level 5:colcon.colcon_core.verb:set package 'frenet_planner' build argument 'cmake_force_configure' from command line to 'False'
+[1.673s] Level 5:colcon.colcon_core.verb:set package 'frenet_planner' build argument 'ament_cmake_args' from command line to 'None'
+[1.673s] Level 5:colcon.colcon_core.verb:set package 'frenet_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[1.673s] Level 5:colcon.colcon_core.verb:set package 'frenet_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.673s] DEBUG:colcon.colcon_core.verb:Building package 'frenet_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aayush/new_frenet_planner/build/frenet_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aayush/new_frenet_planner/install/frenet_planner', 'merge_install': False, 'path': '/home/aayush/new_frenet_planner/src/frenet_planner_3', 'symlink_install': False, 'test_result_base': None}
+[1.679s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.723s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.724s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/aayush/new_frenet_planner/src/dummy' with build type 'ament_python'
+[1.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy', 'ament_prefix_path')
+[1.752s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aayush/new_frenet_planner/install/dummy/share/dummy/hook/ament_prefix_path.ps1'
+[1.754s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aayush/new_frenet_planner/install/dummy/share/dummy/hook/ament_prefix_path.dsv'
+[1.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aayush/new_frenet_planner/install/dummy/share/dummy/hook/ament_prefix_path.sh'
+[1.778s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.778s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.799s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.807s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aayush/new_frenet_planner/src/frenet_planner_3' with build type 'ament_cmake'
+[1.808s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aayush/new_frenet_planner/src/frenet_planner_3'
+[1.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.842s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.641s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/aayush/new_frenet_planner/src/dummy'
+[2.656s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.656s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.670s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aayush/new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_frenet_planner/build/frenet_planner -- -j2 -l2
+[2.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aayush/new_frenet_planner/src/dummy': PYTHONPATH=/home/aayush/new_frenet_planner/install/dummy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dummy build --build-base /home/aayush/new_frenet_planner/build/dummy/build install --prefix /home/aayush/new_frenet_planner/install/dummy --record /home/aayush/new_frenet_planner/build/dummy/install.log --single-version-externally-managed
+[3.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aayush/new_frenet_planner/src/dummy' returned '0': PYTHONPATH=/home/aayush/new_frenet_planner/install/dummy/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dummy build --build-base /home/aayush/new_frenet_planner/build/dummy/build install --prefix /home/aayush/new_frenet_planner/install/dummy --record /home/aayush/new_frenet_planner/build/dummy/install.log --single-version-externally-managed
+[3.983s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/dummy' for CMake module files
+[3.984s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/dummy' for CMake config files
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/dummy/lib'
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/dummy/bin'
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/dummy/lib/pkgconfig/dummy.pc'
+[3.986s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/dummy/lib/python3.8/site-packages'
+[3.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('dummy', 'pythonpath')
+[4.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aayush/new_frenet_planner/install/dummy/share/dummy/hook/pythonpath.ps1'
+[4.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aayush/new_frenet_planner/install/dummy/share/dummy/hook/pythonpath.dsv'
+[4.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aayush/new_frenet_planner/install/dummy/share/dummy/hook/pythonpath.sh'
+[4.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dummy)
+[4.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/dummy/share/dummy/package.ps1'
+[4.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aayush/new_frenet_planner/install/dummy/share/dummy/package.dsv'
+[4.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/dummy/share/dummy/package.sh'
+[4.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/dummy/share/dummy/package.bash'
+[4.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/dummy/share/dummy/package.zsh'
+[4.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aayush/new_frenet_planner/install/dummy/share/colcon-core/packages/dummy)
+[18.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aayush/new_frenet_planner/build/frenet_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_frenet_planner/build/frenet_planner -- -j2 -l2
+[18.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/aayush/new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy /usr/bin/cmake --install /home/aayush/new_frenet_planner/build/frenet_planner
+[18.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(frenet_planner)
+[18.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/aayush/new_frenet_planner/build/frenet_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aayush/fake_iac_ws/install/dummy:/opt/ros/foxy /usr/bin/cmake --install /home/aayush/new_frenet_planner/build/frenet_planner
+[18.511s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner' for CMake module files
+[18.513s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner' for CMake config files
+[18.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('frenet_planner', 'cmake_prefix_path')
+[18.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/hook/cmake_prefix_path.ps1'
+[18.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/hook/cmake_prefix_path.dsv'
+[18.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/hook/cmake_prefix_path.sh'
+[18.537s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner/lib'
+[18.537s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner/bin'
+[18.538s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner/lib/pkgconfig/frenet_planner.pc'
+[18.538s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner/lib/python3.8/site-packages'
+[18.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.ps1'
+[18.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.dsv'
+[18.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.sh'
+[18.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.bash'
+[18.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.zsh'
+[18.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aayush/new_frenet_planner/install/frenet_planner/share/colcon-core/packages/frenet_planner)
+[18.660s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(frenet_planner)
+[18.676s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner' for CMake module files
+[18.677s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner' for CMake config files
+[18.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('frenet_planner', 'cmake_prefix_path')
+[18.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/hook/cmake_prefix_path.ps1'
+[18.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/hook/cmake_prefix_path.dsv'
+[18.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/hook/cmake_prefix_path.sh'
+[18.698s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner/lib'
+[18.698s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner/bin'
+[18.699s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner/lib/pkgconfig/frenet_planner.pc'
+[18.699s] Level 1:colcon.colcon_core.environment:checking '/home/aayush/new_frenet_planner/install/frenet_planner/lib/python3.8/site-packages'
+[18.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.ps1'
+[18.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.dsv'
+[18.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.sh'
+[18.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.bash'
+[18.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/aayush/new_frenet_planner/install/frenet_planner/share/frenet_planner/package.zsh'
+[18.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aayush/new_frenet_planner/install/frenet_planner/share/colcon-core/packages/frenet_planner)
+[18.719s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.720s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.721s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.722s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.758s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.802s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.827s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aayush/new_frenet_planner/install/local_setup.ps1'
+[18.830s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aayush/new_frenet_planner/install/_local_setup_util_ps1.py'
+[18.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aayush/new_frenet_planner/install/setup.ps1'
+[18.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aayush/new_frenet_planner/install/local_setup.sh'
+[18.853s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aayush/new_frenet_planner/install/_local_setup_util_sh.py'
+[18.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aayush/new_frenet_planner/install/setup.sh'
+[18.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aayush/new_frenet_planner/install/local_setup.bash'
+[18.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aayush/new_frenet_planner/install/setup.bash'
+[18.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aayush/new_frenet_planner/install/local_setup.zsh'
+[18.898s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aayush/new_frenet_planner/install/setup.zsh'

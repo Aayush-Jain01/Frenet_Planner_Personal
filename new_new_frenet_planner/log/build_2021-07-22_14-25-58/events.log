@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (-) JobUnselected: {'identifier': 'dummy'}
+[0.000337] (-) JobUnselected: {'identifier': 'frenet_planner'}
+[0.000397] (-) EventReactorShutdown: {}

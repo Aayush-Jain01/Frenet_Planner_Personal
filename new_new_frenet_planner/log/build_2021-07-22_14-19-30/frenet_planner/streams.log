@@ -1,0 +1,26 @@
+[0.883s] Invoking command in '/home/aayush/new_new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_new_frenet_planner/build/frenet_planner -- -j2 -l2
+[1.146s] [100%] Built target temp_frenet_ros_obst
+[1.190s] Invoked command in '/home/aayush/new_new_frenet_planner/build/frenet_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/aayush/new_new_frenet_planner/build/frenet_planner -- -j2 -l2
+[1.303s] Invoking command in '/home/aayush/new_new_frenet_planner/build/frenet_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/aayush/new_new_frenet_planner/build/frenet_planner
+[1.330s] -- Install configuration: ""
+[1.331s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/lib/frenet_planner/temp_frenet_ros_obst
+[1.332s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/launch
+[1.333s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/launch/frenet_planner_launch.py
+[1.333s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/launch/__pycache__
+[1.334s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/launch/__pycache__/frenet_planner_launch.cpython-38.pyc
+[1.334s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/ament_index/resource_index/package_run_dependencies/frenet_planner
+[1.335s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/ament_index/resource_index/parent_prefix_path/frenet_planner
+[1.335s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/environment/ament_prefix_path.sh
+[1.336s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/environment/ament_prefix_path.dsv
+[1.336s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/environment/path.sh
+[1.337s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/environment/path.dsv
+[1.338s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/local_setup.bash
+[1.338s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/local_setup.sh
+[1.339s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/local_setup.zsh
+[1.339s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/local_setup.dsv
+[1.340s] -- Installing: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/package.dsv
+[1.340s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/ament_index/resource_index/packages/frenet_planner
+[1.341s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/cmake/frenet_plannerConfig.cmake
+[1.341s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/cmake/frenet_plannerConfig-version.cmake
+[1.342s] -- Up-to-date: /home/aayush/new_new_frenet_planner/install/frenet_planner/share/frenet_planner/package.xml
+[1.350s] Invoked command in '/home/aayush/new_new_frenet_planner/build/frenet_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/aayush/new_new_frenet_planner/build/frenet_planner
